@@ -18,10 +18,10 @@ const Header = (props) => {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/">Products</Nav.Link>
+        <Nav.Link href="#">Home</Nav.Link>
+        <Nav.Link href="#">Products</Nav.Link>
         <Nav.Link href="#">Cart <sup id='countNum' >{props.count}</sup> </Nav.Link>
-        <Nav.Link href="/">About Us</Nav.Link>
+        <Nav.Link href="#">About Us</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
