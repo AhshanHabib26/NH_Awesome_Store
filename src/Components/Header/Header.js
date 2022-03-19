@@ -19,9 +19,9 @@ const Header = (props) => {
         navbarScroll
       >
         <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/Products">Products</Nav.Link>
+        <Nav.Link href="/">Products</Nav.Link>
         <Nav.Link href="#">Cart <sup id='countNum' >{props.count}</sup> </Nav.Link>
-        <Nav.Link href="#About_Us">About Us</Nav.Link>
+        <Nav.Link href="/">About Us</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
